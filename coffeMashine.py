@@ -16,6 +16,7 @@ class CoffeeMachine:
                 self.fill()
             if self.action == "take":
                 self.take()
+                
 
     def remaining(self):
         print(f"""The coffee machine has:
